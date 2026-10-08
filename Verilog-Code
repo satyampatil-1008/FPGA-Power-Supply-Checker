@@ -1,0 +1,9 @@
+module powersupplyprj(
+    input supply,
+    output reg led,
+    );
+always @(*)
+begin
+led=supply;
+end
+endmodule
